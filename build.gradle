@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+  //  id 'war'
+}
+
+group = "org.abb_tech"
+version = "1.0.0"
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    set('jakartaVersion', '6.1.0-M2')
+}
+
+dependencies {
+
+
+    // Align all JUnit 5 & Platform versions
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    // JUnit Jupiter (API + engine)
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    // Mockito
+    testImplementation 'org.mockito:mockito-core:5.12.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.12.0'
+    // Explicitly add JUnit Platform launcher (fixes that exact error on some setups)
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+   // compileOnly group: 'jakarta.servlet', name: 'jakarta.servlet-api', version: "${jakartaVersion}"
+
+}
+
+
+
+
+test {
+    useJUnitPlatform()
+}
+
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.abb_tech.lesson2.Calculator'
+        )
+    }
+}
+
+//tasks.war {
+//    archiveFileName = 'my-servlet-app.war'
+//}
+
+//tasks.register("hello") {
+//    print("Hello new task")
+//}
+
