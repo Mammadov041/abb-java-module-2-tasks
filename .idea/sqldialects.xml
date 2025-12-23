@@ -3,5 +3,6 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/.idea/queries/Query.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/.idea/queries/Query_1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/queries/cars.sql" dialect="PostgreSQL" />
   </component>
 </project>

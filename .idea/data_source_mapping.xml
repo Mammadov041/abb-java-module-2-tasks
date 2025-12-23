@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/d45bf965-019e-4cc3-944d-ad17a32f1db8/console.sql" value="d45bf965-019e-4cc3-944d-ad17a32f1db8" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/d45bf965-019e-4cc3-944d-ad17a32f1db8/console_1.sql" value="d45bf965-019e-4cc3-944d-ad17a32f1db8" />
     <file url="file://$PROJECT_DIR$/.idea/queries/Query.sql" value="d45bf965-019e-4cc3-944d-ad17a32f1db8" />
     <file url="file://$PROJECT_DIR$/.idea/queries/Query_1.sql" value="d45bf965-019e-4cc3-944d-ad17a32f1db8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/queries/cars.sql" value="d45bf965-019e-4cc3-944d-ad17a32f1db8" />
   </component>
 </project>

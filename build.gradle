@@ -15,12 +15,22 @@ repositories {
     mavenCentral()
 }
 
+
+repositories {
+    mavenCentral()
+}
+
 ext {
     set('jakartaVersion', '6.1.0-M2')
     set('jUnitVersion', '5.10.2')
+    set("postgresVersion", "42.7.4")
+    set("hikariCPVersion", "6.2.1")
 }
 
 dependencies {
+
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: "${hikariCPVersion}"
+    implementation group: 'org.postgresql', name: 'postgresql', version: "${postgresVersion}"
 
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
 
