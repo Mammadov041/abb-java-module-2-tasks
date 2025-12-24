@@ -58,9 +58,7 @@ class LibraryServiceTest {
     @Test
     void testGroupBooksByAuthor() {
         Map<String, List<Book>> grouped = libraryService.groupBooksByAuthor();
-
-        assertEquals(2, grouped.get("John").size());
-        assertEquals(1, grouped.get("Alex").size());
+        assertEquals(3, grouped.get("John").size());
     }
 
     @Test

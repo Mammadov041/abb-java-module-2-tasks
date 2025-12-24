@@ -15,7 +15,7 @@ import org.abb_tech.task16Endpoint.service.CarServiceImpl;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-@WebServlet(name = "CarController", urlPatterns = "/cars")
+@WebServlet(name = "CarController2", urlPatterns = "/cars2")
 public class CarController extends HttpServlet {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();

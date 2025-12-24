@@ -5,21 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1515d6-1447-4e15-937c-999c39f1731a" name="Changes" comment="commited">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/dto/CarDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/exception/CarNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/repository/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/repository/CarRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/service/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/abb_tech/task16Endpoint/CarServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/config/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/dto/CarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/dto/UserDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/exception/CarNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/exception/DBConnectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/queries/cars.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/repository/CarDBRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/repository/CarListRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/repository/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/security/AuthCookieFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/security/AuthHttpSessionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/service/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/service/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/service/CarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task17and19Db/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/abb_tech/task17and19Db/AuthServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/abb_tech/task17and19Db/CarServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/abb_tech/task17and19Db/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/abb_tech/task16Endpoint/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/abb_tech/task16Endpoint/controller/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/abb_tech/module1lesson9/classes/LibraryServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/abb_tech/module1lesson9/classes/LibraryServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/abb-module-2-tasks.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/abb-module-2-tasks.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.abb_tech.module1lesson9.classes.BookTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.abb_tech.module1lesson9.classes.BookTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.abb_tech.module1lesson9.classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/org.abb_tech.module1lesson9.classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.abb_tech.module1lesson9.classes.BookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.abb_tech.module1lesson9.classes.BookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/abb_tech/task16Endpoint/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/abb_tech/module1lesson9/classes/LibraryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/abb_tech/module1lesson9/classes/LibraryServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +86,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="abbtech-module-two" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="abbtech-module-two" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -93,6 +137,13 @@
     &quot;accountId&quot;: &quot;9f923351-7b76-433f-a4ee-1b5b666b932c&quot;
   }
 }</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -105,8 +156,15 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.BookTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.BorrowRecordTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build abb-java-module-2-tasks.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.LibraryServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryServiceTest.testGroupBooksByAuthor.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'org.abb_tech.module1lesson9.classes'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'org.abb_tech.task16Endpoint'.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.UserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.abb-java-module-2-tasks [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.abb-java-module-2-tasks [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.abb-java-module-2-tasks [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.abb-java-module-2-tasks [deployToTomcat].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.abb-java-module-2-tasks [startTomcat].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.abb-java-module-2-tasks [stopTomcat].executor&quot;: &quot;Run&quot;,
@@ -114,9 +172,10 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.my tomcat server.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;task16Endpoint&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/said/IdeaProjects/abb-java-module-2-tasks/src/test/java/org/abb_tech&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/said/IdeaProjects/abb-java-module-2-tasks/src/main/java/org/abb_tech/task17Db&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -129,61 +188,71 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/abb_tech/task17Db" />
       <recent name="$PROJECT_DIR$/src/test/java/org/abb_tech/" />
       <recent name="$PROJECT_DIR$/src/main/java/org/abb_tech" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="my tomcat server" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="RunManager" selected="Gradle.abb-java-module-2-tasks [deployToTomcat]">
-    <configuration name="BookTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="abb-java-module-2-tasks [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.abb_tech.module1lesson9.classes.BookTest&quot;" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <GradleProfilingDisabled>false</GradleProfilingDisabled>
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="abb-java-module-2-tasks [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.abb_tech.module1lesson9.classes.LibraryServiceTest&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <GradleProfilingDisabled>false</GradleProfilingDisabled>
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
@@ -263,21 +332,108 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="my tomcat server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.abb_tech : abb-module-2-tasks.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/abb-module-2-tasks" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cdeaee4a-5b07-4c34-ac4f-a746f6f648d7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39999" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.abb_tech : abb-module-2-tasks.war" />
+        </option>
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.abb-java-module-2-tasks [deployToTomcat]" />
         <item itemvalue="Gradle.abb-java-module-2-tasks [startTomcat]" />
         <item itemvalue="Gradle.abb-java-module-2-tasks [stopTomcat]" />
-        <item itemvalue="Gradle.BookTest" />
-        <item itemvalue="Gradle.LibraryServiceTest" />
+        <item itemvalue="Gradle.abb-java-module-2-tasks [build]" />
+        <item itemvalue="Gradle.abb-java-module-2-tasks [clean]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
-        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -296,6 +452,12 @@
       <workItem from="1765899782048" duration="494000" />
       <workItem from="1765900412737" duration="74000" />
       <workItem from="1765997300808" duration="6000" />
+      <workItem from="1766068172815" duration="2669000" />
+      <workItem from="1766079466785" duration="1039000" />
+      <workItem from="1766394850106" duration="9642000" />
+      <workItem from="1766421250754" duration="4021000" />
+      <workItem from="1766425477020" duration="1502000" />
+      <workItem from="1766498559786" duration="4455000" />
     </task>
     <task id="LOCAL-00001" summary="commited">
       <option name="closed" value="true" />

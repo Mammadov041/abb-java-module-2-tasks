@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.abb_tech.module1lesson9.classes.LibraryServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-12-23T16:21:27.306Z" hostname="kali" time="0.02">
+  <properties/>
+  <testcase name="testGroupBooksByAuthor()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.002"/>
+  <testcase name="testAfter2000AndIsAvailable_printsCorrectly()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.002"/>
+  <testcase name="testGetUsersCurrentBooks()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.002"/>
+  <testcase name="testFindRecommendedBookForUser()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.004"/>
+  <testcase name="testGetAuthors()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.001"/>
+  <testcase name="testFindTopReaderOfMonth()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.002"/>
+  <testcase name="testCalculateAverageRating()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.002"/>
+  <testcase name="testGetMostBorrowedBook()" classname="org.abb_tech.module1lesson9.classes.LibraryServiceTest" time="0.002"/>
+  <system-out><![CDATA[===== BOOK INFO =====
+===== TITLE:Java =====
+===== AUTHOR:John =====
+===== YEAR:2020 =====
+===== RATING:4.700000 =====
+===== IS AVAILABLE:true ===== 
+
+
+===== BOOK INFO =====
+===== TITLE:Python =====
+===== AUTHOR:John =====
+===== YEAR:2019 =====
+===== RATING:4.900000 =====
+===== IS AVAILABLE:true ===== 
+
+
+===== BOOK INFO =====
+===== TITLE:C++ =====
+===== AUTHOR:Alex =====
+===== YEAR:2021 =====
+===== RATING:4.200000 =====
+===== IS AVAILABLE:true ===== 
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
